@@ -1,0 +1,20 @@
+# Zotero local database/storage. Keep Zotero data in E:\Zotero, not in this repo.
+zotero.sqlite*
+storage/
+locate/
+styles/
+translators/
+
+# OS and sync-client noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+*.tmp
+*.temp
+
+# Common local backups
+*.bak
+*.backup
+*.codex-backup-*
+
