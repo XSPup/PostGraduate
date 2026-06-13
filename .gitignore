@@ -17,7 +17,3 @@ Desktop.ini
 *.bak
 *.backup
 *.codex-backup-*
-
-# Local-only WeChat reference PDFs
-02_Papers_读论文/Network/Gig黑架构.pdf
-02_Papers_读论文/Network/全球信息网格路由.pdf
