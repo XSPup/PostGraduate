@@ -9,6 +9,7 @@ translators/
 Thumbs.db
 Desktop.ini
 .DS_Store
+*.lnk
 ~$*
 *.tmp
 *.temp
