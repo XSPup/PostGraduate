@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Project Record"
+  short_description: "Record each ML learning project consistently."
+  default_prompt: "Create or update a structured learning project report with project link, goal, setup, notes, outcomes, and next steps."

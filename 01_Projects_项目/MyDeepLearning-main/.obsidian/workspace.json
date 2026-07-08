@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "9887587be00a7c38",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc276f261f4b2108",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "008e9e132900a893",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenSourceProjectPractice/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2363e1dd7b9da07f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a8bd6e48acd1d7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d6eca58ff3be8e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2d9cc721020d34c5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f37584a0c75e205f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "62ea63209710fe34",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a6a77f7890cc35f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b16dd4e5bf88d2f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "learning-records/reports/2026-05-08-simple-linear-regression-notebook.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2026-05-08-simple-linear-regression-notebook 的反向链接列表"
+            }
+          },
+          {
+            "id": "49dd740db88f09a9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "learning-records/reports/2026-05-08-simple-linear-regression-notebook.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2026-05-08-simple-linear-regression-notebook 的出链列表"
+            }
+          },
+          {
+            "id": "9ef1bec68d7a37b5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "97083bec1e5a7b5f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "d1c83a280d47c952",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "learning-records/reports/2026-05-08-simple-linear-regression-notebook.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2026-05-08-simple-linear-regression-notebook 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "008e9e132900a893",
+  "lastOpenFiles": [
+    "OpenSourceProjectPractice/mnist-digit-recognition/data/MNIST/raw/t10k-labels-idx1-ubyte",
+    "OpenSourceProjectPractice/mnist-digit-recognition/data/MNIST/raw/t10k-labels-idx1-ubyte.gz",
+    "OpenSourceProjectPractice/mnist-digit-recognition/data/MNIST/raw/t10k-images-idx3-ubyte",
+    "OpenSourceProjectPractice/mnist-digit-recognition/data/MNIST/raw/t10k-images-idx3-ubyte.gz",
+    "OpenSourceProjectPractice/mnist-digit-recognition/data/MNIST/raw/train-labels-idx1-ubyte",
+    "OpenSourceProjectPractice/mnist-digit-recognition/data/MNIST/raw/train-labels-idx1-ubyte.gz",
+    "OpenSourceProjectPractice/mnist-digit-recognition/data/MNIST/raw/train-images-idx3-ubyte",
+    "OpenSourceProjectPractice/mnist-digit-recognition/data/MNIST/raw/train-images-idx3-ubyte.gz",
+    "OpenSourceProjectPractice/mnist-digit-recognition/data/MNIST/raw",
+    "OpenSourceProjectPractice/mnist-digit-recognition/data/MNIST",
+    "OpenSourceProjectPractice/mnist-digit-recognition/train.py",
+    "OpenSourceProjectPractice/mnist-digit-recognition/README.md",
+    "OpenSourceProjectPractice/README.md",
+    "OpenSourceProjectPractice/mnist-from-scratch-guide.md",
+    "OpenSourceProjectPractice/mnist-digit-recognition/mnist-from-scratch-guide.md",
+    "learning-records/learning-assessment-2026-05-11.md",
+    "AI_ML_Learning_Roadmap_2026.md",
+    "learning-records/reports/2026-05-09-logistic-regression-loss-function.md",
+    "interactive-neuron-demo/README.md",
+    "NNBasics/ENVIRONMENT.md",
+    "simple-linear-regression-notebook/ENVIRONMENT.md",
+    "NNBasics/README.md",
+    "learning-records/reports/2026-05-08-simple-linear-regression-notebook.md",
+    "learning-records/templates/project-report-template.md"
+  ]
+}
