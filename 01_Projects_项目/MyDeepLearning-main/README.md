@@ -21,6 +21,8 @@
 
 可发布的 PyTorch 套件位于 `LearningNotes/d2l-pytorch-notebooks/`。它从本地多框架原始集合中单独整理，MXNet、Paddle 和 TensorFlow 版本仍只保留在 `JupyterNotebooks/`，没有纳入本次 Git 跟踪。
 
+按李沐 D2L/Bilibili 课程逐节学习时，请先看 [`LearningNotes/d2l-pytorch-notebooks/李沐课程与Notebook学习导航.md`](LearningNotes/d2l-pytorch-notebooks/李沐课程与Notebook学习导航.md)。该导航按初学者顺序把课程主题映射到具体 notebook，并说明了 Dropout 等单节视频应该打开哪个文件。
+
 整理时保留 notebook、配套图片、参考文献和安装脚本，排除了明确的运行生成物：模型参数、提交结果 CSV 和序列化演示输出。原始文件仍保留在本地导入目录中。
 
 ## 工作约定
