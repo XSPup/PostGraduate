@@ -18,3 +18,9 @@ Desktop.ini
 *.bak
 *.backup
 *.codex-backup-*
+
+# Keep local MyDeepLearning scratch and data directories out of Git.
+/01_Projects_项目/MyDeepLearning-main/OpenSourceProjectPractice/
+/01_Projects_项目/MyDeepLearning-main/ScratchNotebooks/
+/01_Projects_项目/MyDeepLearning-main/ScratchScripts/
+/01_Projects_项目/MyDeepLearning-main/data/
