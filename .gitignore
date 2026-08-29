@@ -30,3 +30,7 @@ __pycache__/
 /01_Projects_项目/MyDeepLearning-main/ScratchNotebooks/
 /01_Projects_项目/MyDeepLearning-main/ScratchScripts/
 /01_Projects_项目/MyDeepLearning-main/data/
+
+# GRE materials are backed up to Quark; keep these local and out of GitHub.
+/04_Courses_课程/5 GRE OG+机经/
+/04_Courses_课程/GRE材料/
