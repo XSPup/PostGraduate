@@ -1,0 +1,4 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/01_Projects_\u9879\u76ee/MyDeepLearning-main/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true
+}
