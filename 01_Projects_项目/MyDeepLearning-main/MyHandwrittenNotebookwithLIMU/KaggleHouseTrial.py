@@ -125,3 +125,25 @@ numeric_features = all_features_raw.dtypes[all_features_raw.dtypes != "object"].
 print("number of numeric features:", len(numeric_features))
 print("numeric features:")
 print(numeric_features)
+
+# STEP10: normalize numeric features
+print("STEP10: normalize numeric features")
+all_features = all_features_raw.copy()
+all_features[numeric_features] = all_features[numeric_features].apply(
+    lambda x: (x - x.mean()) / (x.std())
+)
+print("first 5 rows of standardized numeric features:")
+print(all_features[numeric_features].head())
+
+all_features[numeric_features] = all_features[numeric_features].fillna(0)
+print("missing values in numeric features:", all_features[numeric_features].isna().sum().sum())
+
+# STEP11: one-hot encode categorical features
+print("STEP11: one-hot encode categorical features")
+all_features = pd.get_dummies(all_features, dummy_na=True)
+print("all features shape after one-hot encoding:", all_features.shape)
+print("remaining missing values:", all_features.isna().sum().sum())
+
+# STEP12: split processed features back into train and test sets
+print("\nSTEP12: split processed features")
+number_of_train_rows = train_data.shape[0]
