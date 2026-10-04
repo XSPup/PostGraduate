@@ -1,0 +1,94 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="aLxmtiUp5SJNNvKCflrn">
+    <mxGraphModel dx="934" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="360" width="280" x="640" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="360" width="520" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="280" width="200" x="80" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-30" edge="1" parent="1" source="_jgkFTdYXN40bW1NuQYc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_jgkFTdYXN40bW1NuQYc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;L1 GPU显存&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;实例私有&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-35" edge="1" parent="1" source="_jgkFTdYXN40bW1NuQYc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_jgkFTdYXN40bW1NuQYc-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="670" />
+              <mxPoint x="480" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;L2 主机内存&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;实例私有&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="实例0" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="280" width="200" x="320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-31" edge="1" parent="1" source="_jgkFTdYXN40bW1NuQYc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_jgkFTdYXN40bW1NuQYc-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;L1 GPU显存&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;实例私有&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-36" edge="1" parent="1" source="_jgkFTdYXN40bW1NuQYc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_jgkFTdYXN40bW1NuQYc-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="670" />
+              <mxPoint x="480" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;L2 主机内存&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;实例私有&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="实例1" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="280" width="200" x="680" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-33" edge="1" parent="1" source="_jgkFTdYXN40bW1NuQYc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_jgkFTdYXN40bW1NuQYc-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;L1 GPU显存&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;实例私有&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="720" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-37" edge="1" parent="1" source="_jgkFTdYXN40bW1NuQYc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_jgkFTdYXN40bW1NuQYc-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="670" />
+              <mxPoint x="480" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;L2 主机内存&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;实例私有&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="720" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="实例2" vertex="1">
+          <mxGeometry height="30" width="60" x="750" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="节点A" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="节点B" vertex="1">
+          <mxGeometry height="30" width="60" x="740" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_jgkFTdYXN40bW1NuQYc-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: Inter, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, sans-serif, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, sans-serif; font-size: 16px; white-space: break-spaces; color: rgb(0, 0, 0);&quot;&gt;L3 - 由后端配置为跨区的实例共享的存储后端&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="400" x="280" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

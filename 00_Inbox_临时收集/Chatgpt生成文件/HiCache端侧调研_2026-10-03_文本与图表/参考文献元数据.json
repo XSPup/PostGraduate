@@ -1,0 +1,254 @@
+[
+  {
+    "number": 1,
+    "authors": "VASWANI A, SHAZEER N, PARMAR N, et al",
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "citation_tail": "[EB/OL]. arXiv:1706.03762, 2017.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 2,
+    "authors": "AINSLIE J, LEE-THORP J, DE JONG M, et al",
+    "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+    "url": "https://arxiv.org/abs/2305.13245",
+    "citation_tail": "[EB/OL]. arXiv:2305.13245, 2023.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 3,
+    "authors": "KWON W, LI Z, ZHUANG S, et al",
+    "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+    "url": "https://arxiv.org/abs/2309.06180",
+    "citation_tail": "[EB/OL]. arXiv:2309.06180, 2023.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 4,
+    "authors": "ZHENG L, YIN L, XIE Z, et al",
+    "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+    "url": "https://arxiv.org/abs/2312.07104",
+    "citation_tail": "[EB/OL]. arXiv:2312.07104, 2023.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 5,
+    "authors": "SGLang Team",
+    "title": "HiCache System Design and Optimization",
+    "url": "https://docs.sglang.io/docs/advanced_features/hicache_design",
+    "citation_tail": "[EB/OL]. 官方在线文档[2026-10-03].",
+    "kind": "官方资料",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 6,
+    "authors": "SGLang Team",
+    "title": "SGLang HiCache Best Practices",
+    "url": "https://docs.sglang.io/docs/advanced_features/hicache_best_practices",
+    "citation_tail": "[EB/OL]. 官方在线文档[2026-10-03].",
+    "kind": "官方资料",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 7,
+    "authors": "XIE Z",
+    "title": "SGLang HiCache: Fast Hierarchical KV Caching with Your Favorite Storage Backends",
+    "url": "https://www.lmsys.org/blog/2025-09-10-sglang-hicache/",
+    "citation_tail": "[EB/OL]. LMSYS Org, 2025-09-10[2026-10-03].",
+    "kind": "官方资料",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 8,
+    "authors": "GIM I, CHEN G, LEE S S, et al",
+    "title": "Prompt Cache: Modular Attention Reuse for Low-Latency Inference",
+    "url": "https://arxiv.org/abs/2311.04934",
+    "citation_tail": "[EB/OL]. arXiv:2311.04934, 2023.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 9,
+    "authors": "YAO J, LI H, LIU Y, et al",
+    "title": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
+    "url": "https://arxiv.org/abs/2405.16444",
+    "citation_tail": "[EB/OL]. arXiv:2405.16444, 2024.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 10,
+    "authors": "XIE Z, XU Z, ZHAO M, et al",
+    "title": "Strata: Hierarchical Context Caching for Long Context Language Model Serving",
+    "url": "https://www.usenix.org/conference/osdi26/presentation/xie-zhiqiang",
+    "citation_tail": "[C]//20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26). USENIX Association, 2026: 1-16.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 11,
+    "authors": "CHEN W, HE S, QU H, et al",
+    "title": "IMPRESS: An Importance-Informed Multi-Tier Prefix KV Storage System for Large Language Model Inference",
+    "url": "https://www.usenix.org/conference/fast25/presentation/chen-weijian-impress",
+    "citation_tail": "[C]//23rd USENIX Conference on File and Storage Technologies (FAST 25). USENIX Association, 2025: 187-201.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 12,
+    "authors": "SHENG Y, ZHENG L, YUAN B, et al",
+    "title": "FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU",
+    "url": "https://arxiv.org/abs/2303.06865",
+    "citation_tail": "[EB/OL]. arXiv:2303.06865, 2023.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 13,
+    "authors": "LEE W, LEE J, SEO J, et al",
+    "title": "InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management",
+    "url": "https://www.usenix.org/conference/osdi24/presentation/lee",
+    "citation_tail": "[C]//18th USENIX Symposium on Operating Systems Design and Implementation (OSDI 24). USENIX Association, 2024: 155-172.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 14,
+    "authors": "ZHANG Z, SHENG Y, ZHOU T, et al",
+    "title": "H₂O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models",
+    "url": "https://arxiv.org/abs/2306.14048",
+    "citation_tail": "[EB/OL]. arXiv:2306.14048, 2023.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 15,
+    "authors": "XIAO G, TIAN Y, CHEN B, et al",
+    "title": "Efficient Streaming Language Models with Attention Sinks",
+    "url": "https://arxiv.org/abs/2309.17453",
+    "citation_tail": "[EB/OL]. arXiv:2309.17453, 2023.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 16,
+    "authors": "LI Y, HUANG Y, YANG B, et al",
+    "title": "SnapKV: LLM Knows What You are Looking for Before Generation",
+    "url": "https://arxiv.org/abs/2404.14469",
+    "citation_tail": "[EB/OL]. arXiv:2404.14469, 2024.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 17,
+    "authors": "TANG J, ZHAO Y, ZHU K, et al",
+    "title": "Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference",
+    "url": "https://arxiv.org/abs/2406.10774",
+    "citation_tail": "[EB/OL]. arXiv:2406.10774, 2024.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 18,
+    "authors": "LIU Z, YUAN J, JIN H, et al",
+    "title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache",
+    "url": "https://arxiv.org/abs/2402.02750",
+    "citation_tail": "[EB/OL]. arXiv:2402.02750, 2024.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 19,
+    "authors": "SONG Y, MI Z, XIE H, et al",
+    "title": "PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU",
+    "url": "https://arxiv.org/abs/2312.12456",
+    "citation_tail": "[EB/OL]. arXiv:2312.12456, 2023.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 20,
+    "authors": "XUE Z, SONG Y, MI Z, et al",
+    "title": "PowerInfer-2: Fast Large Language Model Inference on a Smartphone",
+    "url": "https://arxiv.org/abs/2406.06282",
+    "citation_tail": "[EB/OL]. arXiv:2406.06282, 2024.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 21,
+    "authors": "ALIZADEH K, MIRZADEH I, BELENKO D, et al",
+    "title": "LLM in a flash: Efficient Large Language Model Inference with Limited Memory",
+    "url": "https://arxiv.org/abs/2312.11514",
+    "citation_tail": "[EB/OL]. arXiv:2312.11514, 2023.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 22,
+    "authors": "QIN R, LI Z, HE W, et al",
+    "title": "Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot",
+    "url": "https://www.usenix.org/conference/fast25/presentation/qin",
+    "citation_tail": "[C]//23rd USENIX Conference on File and Storage Technologies (FAST 25). USENIX Association, 2025: 155-170.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 23,
+    "authors": "ZHONG Y, LIU S, CHEN J, et al",
+    "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
+    "url": "https://arxiv.org/abs/2401.09670",
+    "citation_tail": "[EB/OL]. arXiv:2401.09670, 2024.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 24,
+    "authors": "PATEL P, CHOUKSE E, ZHANG C, et al",
+    "title": "Splitwise: Efficient generative LLM inference using phase splitting",
+    "url": "https://arxiv.org/abs/2311.18677",
+    "citation_tail": "[EB/OL]. arXiv:2311.18677, 2023.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 25,
+    "authors": "SRIVATSA V, HE Z, ABHYANKAR R, et al",
+    "title": "Preble: Efficient Distributed Prompt Scheduling for LLM Serving",
+    "url": "https://arxiv.org/abs/2407.00023",
+    "citation_tail": "[EB/OL]. arXiv:2407.00023, 2024.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 26,
+    "authors": "SUN B, HUANG Z, ZHAO H, et al",
+    "title": "Llumnix: Dynamic Scheduling for Large Language Model Serving",
+    "url": "https://arxiv.org/abs/2406.03243",
+    "citation_tail": "[EB/OL]. arXiv:2406.03243, 2024.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 27,
+    "authors": "ZHANG M, CAO J, SHEN X, et al",
+    "title": "EdgeShard: Efficient LLM Inference via Collaborative Edge Computing",
+    "url": "https://arxiv.org/abs/2405.14371",
+    "citation_tail": "[EB/OL]. arXiv:2405.14371, 2024.",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  },
+  {
+    "number": 28,
+    "authors": "SUN H, LIU S, LI L, et al",
+    "title": "HillInfer: Efficient Long-Context LLM Inference on the Edge with Hierarchical KV Eviction using SmartSSD",
+    "url": "https://arxiv.org/abs/2602.18750",
+    "citation_tail": "[EB/OL]. arXiv:2602.18750, 2026. 核查的 v2 页面标注 under review。",
+    "kind": "研究论文",
+    "checked": "2026-10-03"
+  }
+]

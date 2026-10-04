@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="610" viewBox="0 0 1120 610" role="img" aria-label="端侧 HiCache 读缓存还是重新计算架构">
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#111111"/></marker></defs>
+  <rect width="1120" height="610" fill="#FFFFFF"/>
+  <text x="560" y="50" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#111111">端侧 HiCache 适配：读缓存还是重新计算？</text>
+  <rect x="40" y="77" width="1040" height="455" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+  <text x="65" y="113" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" fill="#111111">无独立 GPU 的工控机：CPU 推理；模型权重、当前 KV 与历史 KV 争用同一 RAM</text>
+  <g fill="none" stroke="#111111" stroke-width="2" stroke-linejoin="miter">
+    <path d="M240 212 H290" marker-end="url(#arrow)"/>
+    <path d="M560 212 H640" marker-end="url(#arrow)"/>
+    <path d="M870 212 H940" marker-end="url(#arrow)"/>
+    <path d="M430 255 V320" marker-end="url(#arrow)"/>
+    <path d="M760 255 V320" marker-end="url(#arrow)"/>
+    <path d="M568 364 H640" marker-end="url(#arrow)"/>
+    <path d="M642 402 H570" marker-end="url(#arrow)"/>
+  </g>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#111111">
+    <rect x="70" y="170" width="170" height="85" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="155" y="204" font-size="17">再次提问</text><text x="155" y="229" font-size="13">同一设备手册前缀</text>
+    <rect x="300" y="170" width="260" height="85" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="430" y="203" font-size="17">Radix 前缀索引与调度</text><text x="430" y="230" font-size="13">热缓存直接用；冷缓存比较读与算</text>
+    <rect x="650" y="170" width="220" height="85" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="760" y="203" font-size="17">CPU 推理</text><text x="760" y="230" font-size="13">复用已就绪 KV 或重算前缀</text>
+    <rect x="950" y="170" width="100" height="85" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="1000" y="220" font-size="17">回答</text>
+    <rect x="330" y="330" width="230" height="100" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="445" y="370" font-size="16">本地存储：冷前缀 KV</text><text x="445" y="399" font-size="13">只保存预计值得复用的前缀</text>
+    <rect x="650" y="330" width="230" height="100" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="765" y="370" font-size="16">有限 RAM：活动 KV</text><text x="765" y="399" font-size="13">与模型权重、当前请求共享空间</text>
+    <text x="560" y="495" font-size="15">热命中：复用　｜　仅冷命中：读取与重算择快　｜　未命中：重算　｜　后台写入限速</text>
+  </g>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" text-anchor="middle" fill="#111111">
+    <rect x="390" y="281" width="80" height="22" fill="#FFFFFF"/><text x="430" y="297">查找冷前缀</text>
+    <rect x="730" y="281" width="60" height="22" fill="#FFFFFF"/><text x="760" y="297">读写 KV</text>
+    <rect x="570" y="344" width="68" height="20" fill="#FFFFFF"/><text x="604" y="358">按需恢复</text>
+    <rect x="566" y="402" width="78" height="19" fill="#FFFFFF"/><text x="605" y="416">受限异步写</text>
+  </g>
+</svg>
