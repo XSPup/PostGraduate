@@ -1,0 +1,28 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="zsoX3GeBABIKHJKYfAsQ">
+    <mxGraphModel dx="921" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BNX70s8c-Vk4iS3NF_kt-7" edge="1" parent="1" source="BNX70s8c-Vk4iS3NF_kt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);" target="BNX70s8c-Vk4iS3NF_kt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BNX70s8c-Vk4iS3NF_kt-8" edge="1" parent="1" source="BNX70s8c-Vk4iS3NF_kt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);" target="BNX70s8c-Vk4iS3NF_kt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BNX70s8c-Vk4iS3NF_kt-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="系统提示词+对话文件&lt;div&gt;+固定分隔符&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BNX70s8c-Vk4iS3NF_kt-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="问题1&lt;div&gt;故障A如何处理？&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BNX70s8c-Vk4iS3NF_kt-5" edge="1" parent="1" source="BNX70s8c-Vk4iS3NF_kt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" target="BNX70s8c-Vk4iS3NF_kt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BNX70s8c-Vk4iS3NF_kt-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="问题2&lt;div&gt;故障A如何处理？&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

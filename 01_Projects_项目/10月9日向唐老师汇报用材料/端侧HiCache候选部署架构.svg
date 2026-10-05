@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-label="端侧 HiCache 候选部署架构">
+  <defs>
+    <marker id="arrow-slate" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#475569"/></marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2563EB"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#65A30D"/></marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#D97706"/></marker>
+    <marker id="arrow-gray" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#64748B"/></marker>
+  </defs>
+  <rect width="1120" height="650" fill="#FFFFFF"/>
+  <text x="560" y="49" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="700" fill="#172554">端侧 HiCache 候选部署架构</text>
+  <rect x="30" y="80" width="1060" height="480" rx="12" fill="#FAFCFF" stroke="#94A3B8" stroke-width="2"/>
+  <text x="55" y="113" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" font-weight="700" fill="#334155">端侧部署场景：主设备（手机／工控机／嵌入式设备）＋可选同域设备</text>
+  <g fill="none" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M230 206 H285" stroke="#475569" marker-end="url(#arrow-slate)"/>
+    <path d="M525 206 H610" stroke="#475569" marker-end="url(#arrow-slate)"/>
+    <path d="M850 206 H920" stroke="#475569" marker-end="url(#arrow-slate)"/>
+    <path d="M730 254 V314" stroke="#65A30D" marker-start="url(#arrow-green)" marker-end="url(#arrow-green)"/>
+    <path d="M730 400 V456" stroke="#D97706" marker-start="url(#arrow-amber)" marker-end="url(#arrow-amber)"/>
+    <path d="M900 494 H850" stroke="#64748B" stroke-dasharray="7 5" marker-end="url(#arrow-gray)"/>
+    <path d="M405 254 V357 H610" stroke="#2563EB" stroke-dasharray="7 5" marker-end="url(#arrow-blue)"/>
+  </g>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle">
+    <rect x="65" y="168" width="165" height="76" rx="11" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+    <text x="147.5" y="197" font-size="17" fill="#0C4A6E">输入请求</text><text x="147.5" y="221" font-size="13" fill="#0C4A6E">相同前缀／新问题</text>
+    <rect x="285" y="158" width="240" height="96" rx="11" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+    <text x="405" y="196" font-size="17" font-weight="700" fill="#1E3A8A">Radix 树与调度器</text><text x="405" y="222" font-size="13" fill="#1E3A8A">前缀匹配 · 读取／重算决策</text>
+    <rect x="610" y="158" width="240" height="96" rx="11" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+    <text x="730" y="196" font-size="17" font-weight="700" fill="#166534">模型推理</text><text x="730" y="222" font-size="13" fill="#166534">CPU；可选 NPU／集成 GPU</text>
+    <rect x="920" y="168" width="135" height="76" rx="11" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+    <text x="987.5" y="212" font-size="17" fill="#0C4A6E">生成结果</text>
+    <rect x="610" y="314" width="240" height="86" rx="11" fill="#ECFCCB" stroke="#65A30D" stroke-width="2"/>
+    <text x="730" y="349" font-size="17" font-weight="700" fill="#3F6212">活动 KV 缓存</text><text x="730" y="374" font-size="13" fill="#3F6212">设备可用内存（RAM／共享内存）</text>
+    <rect x="610" y="456" width="240" height="76" rx="11" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <text x="730" y="485" font-size="17" font-weight="700" fill="#92400E">本地前缀 KV</text><text x="730" y="511" font-size="13" fill="#92400E">手机闪存／本地存储／SSD</text>
+    <rect x="900" y="456" width="160" height="76" rx="11" fill="#F1F5F9" stroke="#64748B" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="980" y="485" font-size="16" fill="#334155">可选：同域设备</text><text x="980" y="511" font-size="13" fill="#334155">跨设备缓存来源</text>
+    <rect x="105" y="574" width="910" height="37" rx="7" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="560" y="598" font-size="14" fill="#475569">命中：复用或按需恢复前缀 KV　｜　未命中或恢复较慢：计算前缀 KV</text>
+  </g>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" text-anchor="middle">
+    <rect x="747" y="273" width="82" height="24" rx="4" fill="#FAFCFF"/><text x="788" y="290" fill="#3F6212">读／写 KV</text>
+    <rect x="747" y="416" width="120" height="25" rx="4" fill="#FAFCFF"/><text x="807" y="433" fill="#92400E">异步写／按需恢复</text>
+    <rect x="855" y="465" width="50" height="20" rx="4" fill="#FAFCFF"/><text x="880" y="480" fill="#475569">可选获取</text>
+    <rect x="440" y="328" width="123" height="23" rx="4" fill="#FAFCFF"/><text x="501" y="344" fill="#1E40AF">查询可复用前缀</text>
+  </g>
+</svg>

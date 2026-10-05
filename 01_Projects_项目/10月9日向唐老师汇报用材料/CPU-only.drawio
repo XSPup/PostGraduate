@@ -1,0 +1,66 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="5tayYx3sZ6IVCMqHG66U">
+    <mxGraphModel dx="808" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-8" edge="1" parent="1" source="YdOPkXU2iDVeobEXIXJH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);" target="YdOPkXU2iDVeobEXIXJH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);textShadow=0;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;再次提问内容&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;同一提示词和手册&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-4" edge="1" parent="1" source="YdOPkXU2iDVeobEXIXJH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);" target="YdOPkXU2iDVeobEXIXJH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-9" edge="1" parent="1" source="YdOPkXU2iDVeobEXIXJH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);" target="YdOPkXU2iDVeobEXIXJH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Radix前缀索引及调度&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;热缓存直接调用，冷缓存比较读与算&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;本地存储中的冷KV&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;只有有价值的历史KV前缀会被写入&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;" value="查找冷前缀" vertex="1">
+          <mxGeometry height="30" width="70" x="170" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-16" edge="1" parent="1" source="YdOPkXU2iDVeobEXIXJH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CPU推理&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;复用或重新计算KV&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="440" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;RAM中的热KV&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;模型和当前请求抢占空间&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="440" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-11" edge="1" parent="1" source="YdOPkXU2iDVeobEXIXJH-3" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);" target="YdOPkXU2iDVeobEXIXJH-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="390" as="sourcePoint" />
+            <mxPoint x="410" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;" value="按需恢复" vertex="1">
+          <mxGeometry height="30" width="60" x="355" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;" value="异步写入" vertex="1">
+          <mxGeometry height="30" width="60" x="355" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-14" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.53;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;strokeColor=light-dark(#000000,#000000);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="515.21" y="318.72" as="sourcePoint" />
+            <mxPoint x="514.71" y="239.99999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;" value="读写KV" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="YdOPkXU2iDVeobEXIXJH-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000000);textShadow=0;labelBackgroundColor=none;fillColor=none;strokeColor=light-dark(#000000,#000000);" value="输出" vertex="1">
+          <mxGeometry height="80" width="80" x="680" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
