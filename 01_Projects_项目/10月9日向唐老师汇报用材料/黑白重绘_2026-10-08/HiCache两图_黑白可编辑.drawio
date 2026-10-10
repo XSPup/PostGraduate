@@ -1,0 +1,1153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="Electron" compressed="false" pages="2">
+  <diagram name="图2a CPU-only 架构" id="图2a CPU-only 架构">
+    <mxGraphModel dx="2012" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1070" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v75" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="360" width="770" x="870" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="v4" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="170" width="280" x="50" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="67" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="v5" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="31" y="3" />
+              <mxPoint x="42" y="14" />
+              <mxPoint x="42" y="45" />
+              <mxPoint x="7" y="45" />
+            </Array>
+            <mxPoint x="7" y="3" as="sourcePoint" />
+            <mxPoint x="7" y="3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="v5" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="31" y="14" />
+            </Array>
+            <mxPoint x="31" y="3" as="sourcePoint" />
+            <mxPoint x="42" y="14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="v5" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="23" as="sourcePoint" />
+            <mxPoint x="34" y="23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="v5" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="31" as="sourcePoint" />
+            <mxPoint x="34" y="31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="v5" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="39" as="sourcePoint" />
+            <mxPoint x="34" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v11" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=23;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="请求输入" vertex="1">
+          <mxGeometry height="32" width="190" x="126" y="187" as="geometry" />
+        </mxCell>
+        <mxCell id="v12" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="系统提示词 ＋ 固定文档&#10;＋ 本次问题&#10;分词后形成 token 序列" vertex="1">
+          <mxGeometry height="116" width="190" x="126" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="v13" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="170" width="580" x="420" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="v14" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="437" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="v15" parent="v14" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="19" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="v16" parent="v14" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="3" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="v17" parent="v14" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="19" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="v18" parent="v14" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="35" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="v14" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="24" y="23" />
+              <mxPoint x="8" y="23" />
+            </Array>
+            <mxPoint x="24" y="13" as="sourcePoint" />
+            <mxPoint x="8" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="v14" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="23" as="sourcePoint" />
+            <mxPoint x="24" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="v14" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="23" />
+            </Array>
+            <mxPoint x="24" y="23" as="sourcePoint" />
+            <mxPoint x="40" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v22" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=23;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="前缀缓存管理器：索引 ＋ 决策" vertex="1">
+          <mxGeometry height="32" width="490" x="496" y="187" as="geometry" />
+        </mxCell>
+        <mxCell id="v23" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="索引：定位连续相同前缀，记录位置与就绪状态&#10;决策：RAM 就绪直接复用；SSD 候选比较恢复与重算&#10;约束：状态兼容、可用 RAM、请求等待预算" vertex="1">
+          <mxGeometry height="116" width="490" x="496" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="v24" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="170" width="370" x="1120" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="v25" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="1137" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="v26" parent="v25" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="v27" parent="v25" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="17" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="e28" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="3" as="sourcePoint" />
+            <mxPoint x="14" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e29" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="38" as="sourcePoint" />
+            <mxPoint x="14" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e30" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="14" as="sourcePoint" />
+            <mxPoint x="10" y="14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e31" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="38" y="14" as="sourcePoint" />
+            <mxPoint x="45" y="14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e32" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="3" as="sourcePoint" />
+            <mxPoint x="24" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e33" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="38" as="sourcePoint" />
+            <mxPoint x="24" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e34" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="24" as="sourcePoint" />
+            <mxPoint x="10" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e35" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="38" y="24" as="sourcePoint" />
+            <mxPoint x="45" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e36" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="34" y="3" as="sourcePoint" />
+            <mxPoint x="34" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e37" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="34" y="38" as="sourcePoint" />
+            <mxPoint x="34" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e38" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="34" as="sourcePoint" />
+            <mxPoint x="10" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e39" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="38" y="34" as="sourcePoint" />
+            <mxPoint x="45" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v40" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=23;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="CPU 推理后端" vertex="1">
+          <mxGeometry height="32" width="280" x="1196" y="187" as="geometry" />
+        </mxCell>
+        <mxCell id="v41" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="复用前缀：跳过对应 Prefill&#10;缺失前缀 / 新输入：执行 Prefill&#10;Decode：生成后续 token" vertex="1">
+          <mxGeometry height="116" width="280" x="1196" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="v42" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="1570" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="v43" parent="v42" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="31" width="42" x="3" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="e44" edge="1" parent="v42" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="12" y="45" />
+            </Array>
+            <mxPoint x="12" y="35" as="sourcePoint" />
+            <mxPoint x="23" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e45" edge="1" parent="v42" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="11" y="14" as="sourcePoint" />
+            <mxPoint x="37" y="14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e46" edge="1" parent="v42" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="11" y="24" as="sourcePoint" />
+            <mxPoint x="29" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v47" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=19;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="回答输出" vertex="1">
+          <mxGeometry height="38" width="130" x="1535" y="283" as="geometry" />
+        </mxCell>
+        <mxCell id="e48" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="255" as="sourcePoint" />
+            <mxPoint x="420" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v49" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="tokens" vertex="1">
+          <mxGeometry height="30" width="84" x="333" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="e50" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=1;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="255" as="sourcePoint" />
+            <mxPoint x="1120" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v51" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="复用 / 重算&#10;执行指令" vertex="1">
+          <mxGeometry height="42" width="113" x="1003" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="e52" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="255" as="sourcePoint" />
+            <mxPoint x="1565" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e53" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=block;startFill=1;endFill=1;dashed=1;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="345" as="sourcePoint" />
+            <mxPoint x="595" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v54" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=17;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="查询 / 恢复 / 写出任务&#10;完成状态反馈&#10;完成后更新索引" vertex="1">
+          <mxGeometry height="100" width="210" x="608" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="e55" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=1;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="425" />
+              <mxPoint x="850" y="425" />
+              <mxPoint x="850" y="590" />
+            </Array>
+            <mxPoint x="940" y="345" as="sourcePoint" />
+            <mxPoint x="900" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v56" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=17;fontStyle=0;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="按索引定位热 KV&#10;检查是否可复用" vertex="1">
+          <mxGeometry height="48" width="220" x="1000" y="361" as="geometry" />
+        </mxCell>
+        <mxCell id="v57" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="170" width="280" x="50" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="v58" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="67" y="591" as="geometry" />
+        </mxCell>
+        <mxCell id="v59" parent="v58" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=cylinder;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="40" width="36" x="6" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="e60" edge="1" parent="v58" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="12" y="24" as="sourcePoint" />
+            <mxPoint x="36" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e61" edge="1" parent="v58" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="12" y="33" as="sourcePoint" />
+            <mxPoint x="36" y="33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v62" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=23;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="本地 SSD" vertex="1">
+          <mxGeometry height="32" width="190" x="126" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="v63" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="历史共同前缀的完整 KV&#10;＋ 模型与执行标识&#10;用于请求之间的持久复用" vertex="1">
+          <mxGeometry height="116" width="190" x="126" y="576" as="geometry" />
+        </mxCell>
+        <mxCell id="v64" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="170" width="350" x="420" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="v65" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="437" y="591" as="geometry" />
+        </mxCell>
+        <mxCell id="e66" edge="1" parent="v65" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5" y="42" />
+              <mxPoint x="43" y="42" />
+            </Array>
+            <mxPoint x="5" y="30" as="sourcePoint" />
+            <mxPoint x="43" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e67" edge="1" parent="v65" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="3" as="sourcePoint" />
+            <mxPoint x="24" y="31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e68" edge="1" parent="v65" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="24" y="32" />
+            </Array>
+            <mxPoint x="14" y="22" as="sourcePoint" />
+            <mxPoint x="34" y="22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v69" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=21;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="KV 读写与恢复模块" vertex="1">
+          <mxGeometry height="32" width="260" x="496" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="v70" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="读取：校验 → 格式恢复 → 导入&#10;写出：前缀筛选 → 导出 → 保存&#10;成功完成后反馈状态" vertex="1">
+          <mxGeometry height="116" width="260" x="496" y="576" as="geometry" />
+        </mxCell>
+        <mxCell id="e71" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="577" as="sourcePoint" />
+            <mxPoint x="420" y="577" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v72" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=17;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="读取" vertex="1">
+          <mxGeometry height="31" width="84" x="333" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="e73" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="658" as="sourcePoint" />
+            <mxPoint x="330" y="658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v74" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=17;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="写入" vertex="1">
+          <mxGeometry height="31" width="84" x="333" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="v76" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="890" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="v77" parent="v76" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="25" width="42" x="3" y="11" as="geometry" />
+        </mxCell>
+        <mxCell id="v78" parent="v76" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="9" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="v79" parent="v76" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="20" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="v80" parent="v76" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="31" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="e81" edge="1" parent="v76" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8" y="36" as="sourcePoint" />
+            <mxPoint x="8" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e82" edge="1" parent="v76" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="36" as="sourcePoint" />
+            <mxPoint x="16" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e83" edge="1" parent="v76" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="36" as="sourcePoint" />
+            <mxPoint x="24" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e84" edge="1" parent="v76" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="32" y="36" as="sourcePoint" />
+            <mxPoint x="32" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e85" edge="1" parent="v76" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="36" as="sourcePoint" />
+            <mxPoint x="40" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v86" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=24;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="RAM：CPU 可直接使用的共享主存" vertex="1">
+          <mxGeometry height="38" width="600" x="950" y="487" as="geometry" />
+        </mxCell>
+        <mxCell id="v87" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="140" width="320" x="900" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="v88" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="917" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="v89" parent="v88" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="25" width="42" x="3" y="11" as="geometry" />
+        </mxCell>
+        <mxCell id="v90" parent="v88" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="9" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="v91" parent="v88" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="20" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="v92" parent="v88" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="31" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="e93" edge="1" parent="v88" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8" y="36" as="sourcePoint" />
+            <mxPoint x="8" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e94" edge="1" parent="v88" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="36" as="sourcePoint" />
+            <mxPoint x="16" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e95" edge="1" parent="v88" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="36" as="sourcePoint" />
+            <mxPoint x="24" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e96" edge="1" parent="v88" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="32" y="36" as="sourcePoint" />
+            <mxPoint x="32" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e97" edge="1" parent="v88" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="36" as="sourcePoint" />
+            <mxPoint x="40" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v98" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=21;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="历史热前缀 KV" vertex="1">
+          <mxGeometry height="32" width="230" x="976" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="v99" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="已经就绪的共同前缀&#10;保留在 RAM，供后续请求复用&#10;受容量与淘汰策略管理" vertex="1">
+          <mxGeometry height="86" width="230" x="976" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="v100" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="140" width="330" x="1280" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="v101" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="1297" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="v102" parent="v101" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="25" width="42" x="3" y="11" as="geometry" />
+        </mxCell>
+        <mxCell id="v103" parent="v101" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="9" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="v104" parent="v101" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="20" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="v105" parent="v101" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="31" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="e106" edge="1" parent="v101" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8" y="36" as="sourcePoint" />
+            <mxPoint x="8" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e107" edge="1" parent="v101" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="36" as="sourcePoint" />
+            <mxPoint x="16" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e108" edge="1" parent="v101" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="36" as="sourcePoint" />
+            <mxPoint x="24" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e109" edge="1" parent="v101" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="32" y="36" as="sourcePoint" />
+            <mxPoint x="32" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e110" edge="1" parent="v101" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="36" as="sourcePoint" />
+            <mxPoint x="40" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v111" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=21;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="当前请求活动 KV" vertex="1">
+          <mxGeometry height="32" width="240" x="1356" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="v112" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="挂接热前缀 / 导入 SSD 状态&#10;再追加 CPU 新计算的 KV&#10;供当前 Prefill 与 Decode 使用" vertex="1">
+          <mxGeometry height="86" width="240" x="1356" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="e113" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="620" as="sourcePoint" />
+            <mxPoint x="1280" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v114" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=15;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="直接&#10;复用" vertex="1">
+          <mxGeometry height="48" width="60" x="1220" y="566" as="geometry" />
+        </mxCell>
+        <mxCell id="e115" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=block;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1445" y="345" as="sourcePoint" />
+            <mxPoint x="1445" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v116" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=17;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="CPU 读取活动 KV&#10;并写入新生成 KV" vertex="1">
+          <mxGeometry height="77" width="172" x="1461" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="e117" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=block;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="615" />
+              <mxPoint x="820" y="750" />
+              <mxPoint x="1445" y="750" />
+            </Array>
+            <mxPoint x="770" y="615" as="sourcePoint" />
+            <mxPoint x="1445" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v118" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=17;fontStyle=0;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="恢复方向：将 SSD 前缀导入活动 KV&#10;写出方向：将共同前缀从 RAM 导出至 SSD" vertex="1">
+          <mxGeometry height="56" width="610" x="915" y="758" as="geometry" />
+        </mxCell>
+        <mxCell id="v119" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=17;fontStyle=0;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="模型权重、热 KV、活动 KV 与加载缓冲共享 RAM 容量。" vertex="1">
+          <mxGeometry height="38" width="770" x="870" y="842" as="geometry" />
+        </mxCell>
+        <mxCell id="v120" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="94" width="490" x="50" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="v121" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="67" y="933" as="geometry" />
+        </mxCell>
+        <mxCell id="v122" parent="v121" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="25" width="42" x="3" y="11" as="geometry" />
+        </mxCell>
+        <mxCell id="v123" parent="v121" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="9" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="v124" parent="v121" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="20" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="v125" parent="v121" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="31" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="e126" edge="1" parent="v121" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8" y="36" as="sourcePoint" />
+            <mxPoint x="8" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e127" edge="1" parent="v121" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="36" as="sourcePoint" />
+            <mxPoint x="16" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e128" edge="1" parent="v121" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="36" as="sourcePoint" />
+            <mxPoint x="24" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e129" edge="1" parent="v121" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="32" y="36" as="sourcePoint" />
+            <mxPoint x="32" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e130" edge="1" parent="v121" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="36" as="sourcePoint" />
+            <mxPoint x="40" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v131" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="① RAM 已就绪：直接复用" vertex="1">
+          <mxGeometry height="32" width="400" x="126" y="922" as="geometry" />
+        </mxCell>
+        <mxCell id="v132" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="热前缀挂接到当前请求，仅计算剩余输入。" vertex="1">
+          <mxGeometry height="40" width="400" x="126" y="956" as="geometry" />
+        </mxCell>
+        <mxCell id="v133" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="94" width="505" x="595" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="v134" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="612" y="933" as="geometry" />
+        </mxCell>
+        <mxCell id="v135" parent="v134" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=cylinder;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="40" width="36" x="6" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="e136" edge="1" parent="v134" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="12" y="24" as="sourcePoint" />
+            <mxPoint x="36" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e137" edge="1" parent="v134" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="12" y="33" as="sourcePoint" />
+            <mxPoint x="36" y="33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v138" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="② SSD 恢复更快：读取后复用" vertex="1">
+          <mxGeometry height="32" width="415" x="671" y="922" as="geometry" />
+        </mxCell>
+        <mxCell id="v139" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="读写模块完成校验与导入，再交由 CPU 继续推理。" vertex="1">
+          <mxGeometry height="40" width="415" x="671" y="956" as="geometry" />
+        </mxCell>
+        <mxCell id="v140" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="94" width="495" x="1155" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="v141" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="1172" y="933" as="geometry" />
+        </mxCell>
+        <mxCell id="v142" parent="v141" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="v143" parent="v141" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="17" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="e144" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="3" as="sourcePoint" />
+            <mxPoint x="14" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e145" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="38" as="sourcePoint" />
+            <mxPoint x="14" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e146" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="14" as="sourcePoint" />
+            <mxPoint x="10" y="14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e147" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="38" y="14" as="sourcePoint" />
+            <mxPoint x="45" y="14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e148" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="3" as="sourcePoint" />
+            <mxPoint x="24" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e149" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="38" as="sourcePoint" />
+            <mxPoint x="24" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e150" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="24" as="sourcePoint" />
+            <mxPoint x="10" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e151" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="38" y="24" as="sourcePoint" />
+            <mxPoint x="45" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e152" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="34" y="3" as="sourcePoint" />
+            <mxPoint x="34" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e153" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="34" y="38" as="sourcePoint" />
+            <mxPoint x="34" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e154" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="34" as="sourcePoint" />
+            <mxPoint x="10" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e155" edge="1" parent="v141" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="38" y="34" as="sourcePoint" />
+            <mxPoint x="45" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v156" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="③ 未命中 / 恢复不划算：重算" vertex="1">
+          <mxGeometry height="32" width="405" x="1231" y="922" as="geometry" />
+        </mxCell>
+        <mxCell id="v157" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="CPU 计算缺失前缀，在 RAM 中生成活动 KV。" vertex="1">
+          <mxGeometry height="40" width="405" x="1231" y="956" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="图2b 获取与重算决策" id="图2b 获取与重算决策">
+    <mxGraphModel dx="1724" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1430" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v4" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="92" width="460" x="470" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="487" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" parent="v5" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="19" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="v7" parent="v5" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="3" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="v8" parent="v5" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="19" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="v9" parent="v5" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="35" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="v5" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="24" y="23" />
+              <mxPoint x="8" y="23" />
+            </Array>
+            <mxPoint x="24" y="13" as="sourcePoint" />
+            <mxPoint x="8" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="v5" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="23" as="sourcePoint" />
+            <mxPoint x="24" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="v5" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="23" />
+            </Array>
+            <mxPoint x="24" y="23" as="sourcePoint" />
+            <mxPoint x="40" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v13" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="请求到达与前缀查找" vertex="1">
+          <mxGeometry height="32" width="370" x="546" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="v14" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="固定模型 / tokenizer / token 序列与执行标识" vertex="1">
+          <mxGeometry height="38" width="370" x="546" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="v15" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rhombus;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="138" width="360" x="520" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="v16" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="存在兼容的连续前缀？" vertex="1">
+          <mxGeometry height="35.88" width="244.8" x="577.6" y="318.64" as="geometry" />
+        </mxCell>
+        <mxCell id="v17" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="模型 / 位置 / 精度 / 布局一致" vertex="1">
+          <mxGeometry height="27.6" width="244.8" x="577.6" y="354.52" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="237" as="sourcePoint" />
+            <mxPoint x="700" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v19" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rhombus;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="126" width="360" x="520" y="463" as="geometry" />
+        </mxCell>
+        <mxCell id="v20" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="前缀已在 RAM 就绪？" vertex="1">
+          <mxGeometry height="32.76" width="244.8" x="577.6" y="498.28" as="geometry" />
+        </mxCell>
+        <mxCell id="v21" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="完整、可用且已发布" vertex="1">
+          <mxGeometry height="25.200000000000003" width="244.8" x="577.6" y="531.04" as="geometry" />
+        </mxCell>
+        <mxCell id="e22" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="418" as="sourcePoint" />
+            <mxPoint x="700" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v23" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="是" vertex="1">
+          <mxGeometry height="28" width="70" x="715" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="v24" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="96" width="300" x="1030" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="v25" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="1047" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="v26" parent="v25" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="25" width="42" x="3" y="11" as="geometry" />
+        </mxCell>
+        <mxCell id="v27" parent="v25" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="9" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="v28" parent="v25" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="20" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="v29" parent="v25" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="12" width="7" x="31" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="e30" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8" y="36" as="sourcePoint" />
+            <mxPoint x="8" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e31" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="36" as="sourcePoint" />
+            <mxPoint x="16" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e32" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="36" as="sourcePoint" />
+            <mxPoint x="24" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e33" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="32" y="36" as="sourcePoint" />
+            <mxPoint x="32" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e34" edge="1" parent="v25" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="36" as="sourcePoint" />
+            <mxPoint x="40" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v35" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="直接复用" vertex="1">
+          <mxGeometry height="32" width="210" x="1106" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="v36" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="计算剩余输入&#10;无需等待 SSD" vertex="1">
+          <mxGeometry height="42" width="210" x="1106" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="e37" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="526" as="sourcePoint" />
+            <mxPoint x="1030" y="526" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v38" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="是" vertex="1">
+          <mxGeometry height="28" width="80" x="918" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="v39" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="94" width="460" x="470" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="v40" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="487" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="v41" parent="v40" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=cylinder;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="40" width="36" x="6" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="e42" edge="1" parent="v40" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="12" y="24" as="sourcePoint" />
+            <mxPoint x="36" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e43" edge="1" parent="v40" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="12" y="33" as="sourcePoint" />
+            <mxPoint x="36" y="33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v44" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="检查存储与在途加载" vertex="1">
+          <mxGeometry height="32" width="370" x="546" y="644" as="geometry" />
+        </mxCell>
+        <mxCell id="v45" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="查询 SSD；同前缀的有效加载可合并&#10;估计排队、恢复、剩余 Prefill 与等待预算" vertex="1">
+          <mxGeometry height="40" width="370" x="546" y="678" as="geometry" />
+        </mxCell>
+        <mxCell id="e46" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="589" as="sourcePoint" />
+            <mxPoint x="700" y="632" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v47" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="未就绪" vertex="1">
+          <mxGeometry height="28" width="110" x="718" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="v48" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rhombus;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="138" width="390" x="505" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="v49" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="恢复路径可行？" vertex="1">
+          <mxGeometry height="35.88" width="265.20000000000005" x="567.4" y="806.64" as="geometry" />
+        </mxCell>
+        <mxCell id="v50" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="兼容 · RAM 容量 · 请求预算" vertex="1">
+          <mxGeometry height="27.6" width="265.20000000000005" x="567.4" y="842.52" as="geometry" />
+        </mxCell>
+        <mxCell id="e51" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="726" as="sourcePoint" />
+            <mxPoint x="700" y="768" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v52" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rhombus;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="148" width="420" x="490" y="952" as="geometry" />
+        </mxCell>
+        <mxCell id="v53" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="获取 / 等待值得吗？" vertex="1">
+          <mxGeometry height="38.480000000000004" width="285.6" x="557" y="1007" as="geometry" />
+        </mxCell>
+        <mxCell id="e55" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="906" as="sourcePoint" />
+            <mxPoint x="700" y="952" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v56" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="是" vertex="1">
+          <mxGeometry height="28" width="70" x="715" y="914" as="geometry" />
+        </mxCell>
+        <mxCell id="v57" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="114" width="310" x="65" y="969" as="geometry" />
+        </mxCell>
+        <mxCell id="v58" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="82" y="1002" as="geometry" />
+        </mxCell>
+        <mxCell id="e59" edge="1" parent="v58" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="14" y="7" />
+              <mxPoint x="36" y="7" />
+              <mxPoint x="42" y="17" />
+            </Array>
+            <mxPoint x="8" y="17" as="sourcePoint" />
+            <mxPoint x="42" y="23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e60" edge="1" parent="v58" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="42" y="23" />
+            </Array>
+            <mxPoint x="33" y="16" as="sourcePoint" />
+            <mxPoint x="47" y="14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e61" edge="1" parent="v58" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="34" y="41" />
+              <mxPoint x="12" y="41" />
+              <mxPoint x="6" y="31" />
+            </Array>
+            <mxPoint x="40" y="31" as="sourcePoint" />
+            <mxPoint x="6" y="25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e62" edge="1" parent="v58" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6" y="25" />
+            </Array>
+            <mxPoint x="15" y="32" as="sourcePoint" />
+            <mxPoint x="1" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v63" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="选择 CPU 重算" vertex="1">
+          <mxGeometry height="32" width="220" x="141" y="981" as="geometry" />
+        </mxCell>
+        <mxCell id="v64" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="保留已就绪的连续前缀&#10;只重算仍缺失的部分" vertex="1">
+          <mxGeometry height="60" width="220" x="141" y="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="v65" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="120" width="320" x="1015" y="963" as="geometry" />
+        </mxCell>
+        <mxCell id="v66" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="1032" y="999" as="geometry" />
+        </mxCell>
+        <mxCell id="e67" edge="1" parent="v66" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5" y="42" />
+              <mxPoint x="43" y="42" />
+            </Array>
+            <mxPoint x="5" y="30" as="sourcePoint" />
+            <mxPoint x="43" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e68" edge="1" parent="v66" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="24" y="3" as="sourcePoint" />
+            <mxPoint x="24" y="31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e69" edge="1" parent="v66" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="24" y="32" />
+            </Array>
+            <mxPoint x="14" y="22" as="sourcePoint" />
+            <mxPoint x="34" y="22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v70" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="按预算获取与恢复" vertex="1">
+          <mxGeometry height="32" width="230" x="1091" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="v71" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="读取 / 等待 → 校验 → 导入&#10;成功发布后计算剩余输入" vertex="1">
+          <mxGeometry height="66" width="230" x="1091" y="1009" as="geometry" />
+        </mxCell>
+        <mxCell id="e72" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="45" y="349" />
+              <mxPoint x="45" y="1002" />
+            </Array>
+            <mxPoint x="520" y="349" as="sourcePoint" />
+            <mxPoint x="65" y="1002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v73" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="否：未命中 / 不兼容" vertex="1">
+          <mxGeometry height="30" width="225" x="83" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="e74" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="837" />
+            </Array>
+            <mxPoint x="505" y="837" as="sourcePoint" />
+            <mxPoint x="220" y="969" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v75" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="否：不可行" vertex="1">
+          <mxGeometry height="28" width="185" x="261" y="799" as="geometry" />
+        </mxCell>
+        <mxCell id="e76" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1026" as="sourcePoint" />
+            <mxPoint x="375" y="1026" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v77" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=15;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="否 / 收益不足" vertex="1">
+          <mxGeometry height="42" width="116" x="375" y="973" as="geometry" />
+        </mxCell>
+        <mxCell id="e78" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="1026" as="sourcePoint" />
+            <mxPoint x="1015" y="1026" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v79" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="是" vertex="1">
+          <mxGeometry height="28" width="65" x="939" y="986" as="geometry" />
+        </mxCell>
+        <mxCell id="e80" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;" target="v57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1175" y="1141" />
+              <mxPoint x="300" y="1140" />
+            </Array>
+            <mxPoint x="1175" y="1083" as="sourcePoint" />
+            <mxPoint x="220" y="1083" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v81" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="超时 / 失败 / 校验不通过：回退重算" vertex="1">
+          <mxGeometry height="29" width="395" x="700" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="v82" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;rounded=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="92" width="460" x="470" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="v83" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=group;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="487" y="1222" as="geometry" />
+        </mxCell>
+        <mxCell id="e84" edge="1" parent="v83" style="html=0;rounded=0;strokeWidth=2;endArrow=none;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5" y="43" />
+            </Array>
+            <mxPoint x="5" y="4" as="sourcePoint" />
+            <mxPoint x="45" y="43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v85" parent="v83" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="16" width="7" x="12" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="v86" parent="v83" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="25" width="7" x="25" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="v87" parent="v83" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;shape=rectangle;spacing=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="" vertex="1">
+          <mxGeometry height="35" width="7" x="38" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="v88" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=20;fontStyle=1;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="输出首 token 并记录反馈" vertex="1">
+          <mxGeometry height="32" width="370" x="546" y="1212" as="geometry" />
+        </mxCell>
+        <mxCell id="v89" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="测量实际耗时、估计误差与 I/O 干扰" vertex="1">
+          <mxGeometry height="38" width="370" x="546" y="1246" as="geometry" />
+        </mxCell>
+        <mxCell id="e90" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1246" />
+            </Array>
+            <mxPoint x="220" y="1083" as="sourcePoint" />
+            <mxPoint x="470" y="1246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e91" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="1246" />
+            </Array>
+            <mxPoint x="1290" y="1083" as="sourcePoint" />
+            <mxPoint x="930" y="1246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v92" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=1;align=center;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="成功" vertex="1">
+          <mxGeometry height="29" width="92" x="1210" y="1174" as="geometry" />
+        </mxCell>
+        <mxCell id="e93" edge="1" parent="1" style="html=0;rounded=0;strokeWidth=2;endArrow=block;startArrow=none;startFill=1;endFill=1;dashed=0;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);labelBorderColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="530" />
+              <mxPoint x="1360" y="1246" />
+            </Array>
+            <mxPoint x="1330" y="530" as="sourcePoint" />
+            <mxPoint x="1290" y="1246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v101" parent="1" style="rounded=0;html=0;whiteSpace=wrap;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;align=center;verticalAlign=middle;spacing=6;fontSize=16;fontStyle=0;align=left;fontColor=light-dark(#000000,#000000);strokeColor=none;fillColor=none;opacity=100;textOpacity=100;strokeOpacity=100;fillOpacity=100;" value="只比较未来剩余工作&#10;已花费时间不再重复计入&#10;ε：估计误差与切换裕量" vertex="1">
+          <mxGeometry height="112" width="257" x="146" y="626" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

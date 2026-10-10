@@ -34,3 +34,11 @@ __pycache__/
 # GRE materials are backed up to Quark; keep these local and out of GitHub.
 /04_Courses_课程/5 GRE OG+机经/
 /04_Courses_课程/GRE材料/
+
+# Generated build dependencies, editor backups and local scratch.
+node_modules/
+.ppt_build/
+.build/
+*.bkp
+.uv-cache/
+/tmp/
